@@ -1,4 +1,3 @@
-import axios from "axios";
 import { useState, useEffect } from "react";
 
 const Affirmations = () => {
@@ -24,8 +23,7 @@ const Affirmations = () => {
 
   return (
     <div>
-      <h1>Affirmations quote</h1>
-      <h2>{affirmation}</h2>
+      <h2>"{affirmation}"</h2>
     </div>
   );
 };
