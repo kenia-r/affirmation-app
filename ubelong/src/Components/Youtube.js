@@ -22,8 +22,7 @@ const Youtube = () => {
     const randomVideo = () => {
         const vidArr = video.map(vid => {
             return vid.id.videoId
-        })
-
+        });
         const randVid = vidArr[Math.floor(Math.random() * vidArr.length)];
         return randVid
     };
