@@ -35,7 +35,7 @@ const Affirmations = () => {
   //   fetchQuote();
   // }, [])
 
- const affirmation = quote
+ const {affirmation} = quote
 
   return (
     <div>
