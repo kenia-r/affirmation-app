@@ -1,7 +1,9 @@
 import "./App.css";
 import { BrowserRouter as Router, Route } from "react-router-dom";
+
+//Pages
 import Home from "./Pages/Home";
-import Affirmations from "./Components/Affirmations";
+import Show from "./Pages/Show";
 
 function App() {
   return (
@@ -11,7 +13,7 @@ function App() {
           <Home />
         </Route>
         <Route path="/affirmation">
-          <Affirmations />
+          <Show />
         </Route>
       </Router>
     </div>

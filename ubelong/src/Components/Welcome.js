@@ -10,7 +10,7 @@ export default function Welcome() {
         remind you that you’re human and your feelings are valid. please click
         the button below to hear something nice.”
       </article>
-      <Link to="/affirmation"><button>Hey you</button></Link>
+      <Link to="/affirmation"><button>Affirmation</button></Link>
     </div>
   );
 }
