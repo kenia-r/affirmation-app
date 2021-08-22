@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+// import { affirmations } from '../Components/QuotesData';
 
 const Affirmations = () => {
   const [quote, setQuote] = useState([]);
@@ -19,7 +20,21 @@ const Affirmations = () => {
     fetchQuote();
   }, []);
 
- const {affirmation} = quote
+  // const fetchQuote = () => {
+  //   try {
+  //     const randQuote = affirmations[Math.floor(Math.random() * affirmations.length)];
+  //     setQuote(randQuote);
+  //     debugger
+  //   } catch (error) {
+  //     console.log("In the fetchQuote catch", error)
+  //   }
+  // };
+
+  // useEffect(() => {
+  //   fetchQuote();
+  // }, [])
+
+ const affirmation = quote
 
   return (
     <div>
