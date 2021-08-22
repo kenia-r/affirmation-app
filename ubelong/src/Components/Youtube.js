@@ -25,7 +25,6 @@ const Youtube = () => {
         })
 
         const randVid = vidArr[Math.floor(Math.random() * vidArr.length)];
-        debugger
         return randVid
     };
 
